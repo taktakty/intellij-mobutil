@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>net.taktakty.mobutil</id>
+    <name>mobutil</name>
+    <vendor email="taktakty@gmail.com" url="">Takuya Takada</vendor>
+
+    <description><![CDATA[
+    Utility for Mobprogramming with remote. timer, sync project etc...
+    ]]></description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Mob" anchor="right" factoryClass="MobToolWindowFactory"/>
+    </extensions>
+
+    <actions>
+    </actions>
+</idea-plugin>
